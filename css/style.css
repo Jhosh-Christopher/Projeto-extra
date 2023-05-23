@@ -1,0 +1,54 @@
+body {
+    background-image: url(../imagens/background.png);
+    background-color: #E7CBCB;
+    background-size: 100%;
+    font-family: 'Sansita', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #643843;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: auto;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    color: #fff;
+    background-color: #643843;
+}
+
+label {
+    margin-left: 5px;
+}
+
+nav {
+    display: flex;
+    background-color: #643843;
+    justify-content: space-evenly;
+    gap:100px;
+}
+a {  
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+.logo {
+    width: 80px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.titulo {
+    font-family: 'Rubik Puddles', cursive;
+    display: flex;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 3%;
+}
