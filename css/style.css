@@ -1,6 +1,6 @@
 body {
     background-image: url(../imagens/background.png);
-    background-color: #E7CBCB;
+    background-color: #C3ACD0;
     background-size: 100%;
     font-family: 'Sansita', sans-serif;
 }
@@ -8,7 +8,7 @@ body {
 header {
     display: flex;
     justify-content: flex-start;
-    background-color: #643843;
+    background-color: #674188;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     width: auto;
 }
@@ -17,8 +17,8 @@ form {
     display: flex;
     justify-content: start;
     padding: 10px;
-    color: #fff;
-    background-color: #643843;
+    color: #F7EFE5;
+    background-color: #674188;
 }
 
 label {
@@ -27,14 +27,14 @@ label {
 
 nav {
     display: flex;
-    background-color: #643843;
+    background-color: #674188;
     justify-content: space-evenly;
     gap:100px;
 }
 a {  
     display: flex;
     text-decoration: none;
-    color: #fff;
+    color: #F7EFE5;
     padding: 3px;
 }
 .logo {
@@ -49,6 +49,28 @@ a {
     font-size: 70px;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #F7EFE5;
     margin-left: 3%;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+}
+
+.imagem1 {
+    width: 35%;
+    margin: 2%;
+    border: solid 5px #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.texto1{
+    color: #F7EFE5;
+    background-color: #674188;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 10px;
+    
 }
