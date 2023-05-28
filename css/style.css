@@ -13,7 +13,11 @@ header {
     width: auto;
 }
 
-form {
+button {
+    display: flex;
+    margin: 0 auto;
+}
+.form1 {
     display: flex;
     justify-content: start;
     padding: 10px;
@@ -22,10 +26,14 @@ form {
 }
 
 label {
-    margin-left: 5px;
+    margin-left: 25px;
+    padding: 5px;
+}
+textarea {
+    margin: 5px 50px 5px 25px;
 }
 
-nav {
+.links1 {
     display: flex;
     background-color: #674188;
     justify-content: space-evenly;
@@ -73,4 +81,23 @@ a {
     padding: 2%;
     margin: 10px;
     
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: radial-gradient(circle at 12.5% 12.5%, #9db6db 0, #a4b4da 8.33%, #aab2da 16.67%, #b1b1d8 25%, #b7afd6 33.33%, #bdaed3 41.67%, #c3acd0 50%, #c8abcc 58.33%, #cda9c8 66.67%, #d1a8c4 75%, #d5a7bf 83.33%, #d8a7ba 91.67%, #daa6b5 100%);
+}
+.title-form {
+    color: #fff;
+    font-size: 25px;
+    display: inline;
+    margin: 0 auto;
+    padding: 10px;
+
 }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imagens/cat-logo.png">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagens/cat-logo.png" alt="Logo de gatinho">
+        <h1 class="titulo"> Miaudote</h1>
+    </header>
+    <form class="form1">
+        <label for="">Login:</label>
+        <Input type="text" placeholder=" Login"></Input>
+        <label for="">Senha:</label>
+        <input type="password" placeholder=" Senha"></Input>
+    </form>
+        <nav class="links1">
+            <a href="./index.html">Home</a>
+            <a href="#">Nosso Projeto</a>
+            <a href="#">Cadastro</a>
+        </nav>
+    <main>
+
+
+
+
+
+    <fieldset class="container-form">
+
+        <h1 class="title-form">Crie sua conta: </h1>
+                <form class="form2" >
+                <div class="form-grupo">
+                <label for="nome" class="form_label">Nome: </label>
+                <input type="text" name="nome" placeholder="Nome">
+            </div>
+            
+            <div class="form-grupo">
+                <label for="e-mail" class="form_label">Email: </label>
+                <input type="email" name="email" placeholder="seuemail@email.com">
+            </div>
+            <div>
+                <label for="">Senha:</label>
+                <Input type="password" placeholder=" Senha"></Input>
+                <br><label for="">Digite novamente:</label>
+                <input type="password" placeholder=" Senha"></Input>
+            </div>
+            <div class="form-grupo">
+                <label for="datanascimento" class="form_label">Data de Nascimento: </label>
+                <input type="date" name="datanascimento" placeholder="Data de Nascimento">
+            </div>        
+            <div class="form-grupo">
+                
+                <label for="estadocivil" class="texto2">Estado civil: </label>
+                <select name="estadocivil">
+                    <option selected disabled class="form-select" value="">Selecione</option>
+                    <option value="Solteiro" class="form-select">Solteiro(a)</option>
+                    <option value="Casado" class="form-select">Casado(a) </option>
+                    <option value="Divorciado" class="form-select">Divorciado(a)</option>                    
+                    <option value="Viúvo" class="form-select">Viúvo(a)</option>                    
+                </select>
+            </div>
+            
+            </div>
+            <div class="form_message">
+                <label for="message" class="form_message_label"> Digite aqui sua sua mensagem:</label>
+                <textarea name="mensagem"  cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="submit">
+                <button type="submit" name="Submit" >Cadastrar</button>
+                
+            </div>
+        </form>
+</fieldset>
+</body>
+</html>
